@@ -99,7 +99,7 @@
 
  .color:hover::after {
    opacity: 0.06;
-   background: #000;
+   background: #000; 
  }
 
  /* show hex on hover using data-hex */
@@ -187,7 +187,7 @@
      min-height: 520px;
      padding-bottom: 40px;
    }
- }
+ }  
 
 
  /* Style for star ratings */
@@ -868,6 +868,23 @@
  }
 
 
+   .contact-link{
+     color: #000000;
+      font-weight: bold;
+       font-size: 15px; cursor:
+       pointer;
+       transition: all 0.3s ease;
+       text-decoration: none;
+
+   }
+
+   .contact-link:hover{
+     color: #e43c5c;
+     font-weight: bold;
+     text-decoration: underline;
+     cursor: pointer;
+     transition: all 0.3s ease;
+   }
 
 
  /* Additional Styles for the Card Component */
